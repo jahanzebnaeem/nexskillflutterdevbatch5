@@ -11,8 +11,7 @@ void main() {
         ),
         body: const Center(
           child: Image(
-            image: NetworkImage(
-                "https://avatars.githubusercontent.com/u/7645099?s=400&v=4"),
+            image: AssetImage("images/diamond.png"),
           ),
         ),
       ),
